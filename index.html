@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>About Me Page</title>
+  <!--Connecting my CSS Here-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!--Special CSS for the header. 
+    But should this be considered a header?-->
+  <header>
+    <div class="myname ">
+      Tommy Flynn
+    </div>
+    <!-- Adding the top right navigation menu. I'm going to keep it outside the container. -->
+    <div class="topnav">
+      <a class="active" href="index.html">About</a>
+      <a class="active" href="portfolio.html"> Portfolio </a>
+      <a class="active" href="contact.html"> Contact</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <!--I'm going to make a container to include the "box" in. 
+    This will allow gray space behind everything. 
+    The container goes below the header section-->
+
+    <div class="box">
+      <h1 class="aboutme"> About Me </h1>
+      <!--I need to add a grey line with an "hr" tag, so I'm putting it here. -->
+
+      <div class="block_1">
+
+        <hr />
+
+        <p id="first">
+          <img id="tomted" src="TomTed.png" alt="Picture of Tommy">
+          I'm a 31 year old living in Center City, Philadelphia with my wife and two dogs.
+          I grew up in Chicago, Frankfurt Germany, and Northern Virginia.
+          I played Division 1 baseball at Mount Saint Mary's University in Emmitsburg, Maryland from
+          2007-2011 (<a href="https://www.mountathletics.com/sports/bsb/2010-11/bios/flynn_tommy00?view=bio">here's my
+            bio</a>).
+          Once I realized I couldn't hit a curveball and wouldn't make it as a pro, I decided to go to law school.
+        </p>
+
+        </p>
+        <!--Separate paragraphs with separate ID tags make it easier to move them each individually-->
+        <p id="second">
+          I graduated from George Mason School of Law in 2014. I'm barred to practice law in both Virginia and
+          Pennsylvania.
+          I've worked in International Aviation Law (I know, random) and currently am an associate attorney working in
+          real estate law.
+          I also have some startup experience. I was the first hire at a youth sports sponsorship startup in Philly and
+          previously co-founded a peer-to-peer editing platform (it no longer exists...turns out people don't like
+          things edited).
+        </p>
+
+        <p id="third">
+          I'm also an obsessive hobbyist. I am a part-time professional poker player, a Class-A chess player
+          (<a href="https://www.moron2master.com">follow my journey to master here!</a>), an amateur card magician, and
+          occasionally a writer
+          (<a href="https://medium.com/@tfly.flynn">here are some articles from the past</a>). I'm always looking to
+          meet new people and experience new things.
+
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<!-- I still need a footer. Adding it here.-->
+<footer>
+  <div class="footer">
+    <p class="copyright">
+
+      Copyright 2019
+
+    </p>
+
+  </div>
+</footer>
+
+</html>

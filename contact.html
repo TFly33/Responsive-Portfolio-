@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>About Me Page</title>
+   <!--Connecting my CSS Here-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!--Special CSS for the header. 
+    But should this be considered a header?-->
+  <header>
+       <div class= "myname ">
+       Tommy Flynn 
+        </div>
+        <!-- Adding the top right navigation menu. I'm going to keep it outside the container. -->
+ <div class= "topnav">
+    <a class= "active"
+        href="index.html">About</a>
+     <a class ="active"
+     href = "portfolio.html"> Portfolio </a> 
+    <a class = "active"
+    href= "contact.html"> Contact</a>
+  </div>
+      </header>
+
+<div class= "container specialcontainer">
+  <!--I'm going to make a container to include the "box" in. 
+    This will allow gray space behind everything. 
+    The container goes below the header section. Special container for the contact page. -->
+
+  <div class= "box contactbox">
+        <h1 class= "contacttext"> Contact </h1>
+        <!--I need to add a grey line with an "hr" tag, so I'm putting it here. -->
+       
+            <div class="block_1">
+          
+              <hr/> 
+      <!--Gray line ends here. Can now add contact forms. -->
+                <div class= "form">
+                 <h3 class= "name">
+                     Name
+                 </h3>
+                 <!-- Going to add a text box-->
+                    <div class="boxed johnsmith">
+                        John Smith
+                      </div>
+                  <h3 class= "email">
+                      Email
+                  </h3>
+                  <!--This is the box for the email submission-->
+                        <div class= "boxed example">
+                            example@gmail.com
+                        </div>
+                  <h3 class= " message">
+                      Message
+                  </h3>
+                  <!--Space for the Message in a submittion box. -->
+                        <div class= "boxed hidden">
+
+                           
+                        </div>
+                        
+                        <div class="extrawhite">
+                        <!--This is the submit button. I'm going to treat it similarly with the "boxed method" rather than using someone else's css-->
+                        <h3 class="boxed submit"> 
+                        Submit 
+                        </h3> 
+
+                        </div>
+                    
+                </div>
+            </div>
+  </div>      
+</div>
+
+</body>
+
+<!-- I still need a footer. Adding it here.-->
+<footer>
+  <div class= "footer">
+      <p class= "copyright">
+  
+          Copyright 2019
+
+       </p>
+
+  </div>
+</footer>
+
+</html>
