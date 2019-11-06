@@ -295,6 +295,32 @@ background-color: teal;
       margin-top: 30px;
       white-space: nowrap;
     }
+
+    .textimage6
+  {
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    width: 78px;
+    background-color: teal;
+    color: white;
+    padding-left: 62px;
+    padding-right: 60px;
+    padding-top: -5px;
+    padding-bottom: -5px;
+    white-space: nowrap;
+  }
+  .image6
+  {
+      position: absolute;
+      height: 135px;
+      width: 200px;
+      padding: 10px;
+      padding-left: 15px;
+      margin-left: 220px;
+      margin-top: -155px;
+      white-space: nowrap;
+  }
   
     .textimage5
     {
@@ -782,3 +808,5 @@ float:left;
 a:link {
     text-decoration: none;
   }
+
+  
